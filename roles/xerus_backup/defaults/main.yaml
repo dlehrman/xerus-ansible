@@ -1,0 +1,3 @@
+---
+# defaults file for xerus_backup
+xerus_backup_validate_certs: true

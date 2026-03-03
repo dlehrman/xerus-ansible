@@ -1,0 +1,3 @@
+---
+# defaults file for xerus_user
+xerus_user_validate_certs: true

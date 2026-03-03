@@ -1,0 +1,3 @@
+---
+# defaults file for xerus_outlet
+xerus_outlet_validate_certs: true

@@ -1,0 +1,3 @@
+---
+# defaults file for xerus_firmware
+xerus_firmware_validate_certs: true
