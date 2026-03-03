@@ -1,0 +1,21 @@
+---
+name: yamllint
+on: # yamllint disable-line rule:truthy
+  push: {}
+  pull_request:
+    branches:
+    - main
+    - stable
+    - release/v*
+permissions:
+  contents: read
+jobs:
+  lint:
+    name: YAML Lint
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v6
+    - name: Install yamllint
+      run: pip install yamllint
+    - name: Run yamllint
+      run: yamllint . --strict

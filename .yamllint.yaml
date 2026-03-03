@@ -1,0 +1,34 @@
+---
+
+extends: default
+
+rules:
+  braces:
+    forbid: non-empty
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+    max-spaces-inside-empty: 0
+  brackets:
+    forbid: non-empty
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+    max-spaces-inside-empty: 0
+  comments:
+    min-spaces-from-content: 1
+  comments-indentation: disable
+  empty-values:
+    level: warning
+  indentation:
+    spaces: 2
+    indent-sequences: false
+  key-duplicates:
+    forbid-duplicated-merge-keys: true
+  line-length:
+    max: 160
+  octal-values:
+    forbid-explicit-octal: true
+    forbid-implicit-octal: true
+  quoted-strings:
+    quote-type: consistent
+    required: only-when-needed
+    check-keys: false
