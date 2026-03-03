@@ -1,4 +1,5 @@
-# xerus-ansible
+# Ansible Collection - community.xerus
+
 Ansible roles to manage Legrand/Raritan/Server Technology Xerus&trade; devices via JSON-RPC API.
 
 # Trademark & Affiliation Disclaimer
