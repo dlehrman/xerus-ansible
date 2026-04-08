@@ -1,8 +1,8 @@
 # Contributing
 
-Contributions welcome.
+Refer to the [Ansible community guide](https://docs.ansible.com/projects/ansible/devel/community/index.html).
 
-Please follow best practices for git and Ansible.
+Contributions welcome.
 
 Use [pre-commit](https://pre-commit.com/), [ansible-lint](https://ansible.readthedocs.io/projects/lint/usage/), and [yamllint](https://yamllint.readthedocs.io) to ensure no new issues are introduced by your contribution.
 

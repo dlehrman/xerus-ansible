@@ -2,6 +2,10 @@
 
 extends: default
 
+ignore:
+- .github/workflows/ansible-test.yaml
+- .github/workflows/extra-docs-linting.yaml
+
 rules:
   braces:
     forbid: non-empty
