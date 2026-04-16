@@ -9,13 +9,9 @@ ignore:
 rules:
   braces:
     forbid: non-empty
-    min-spaces-inside: 0
-    max-spaces-inside: 1
     max-spaces-inside-empty: 0
   brackets:
     forbid: non-empty
-    min-spaces-inside: 0
-    max-spaces-inside: 1
     max-spaces-inside-empty: 0
   comments:
     min-spaces-from-content: 1
